@@ -10,7 +10,6 @@ public class Main
 		// dogArr = new Dogs[5];
 
 
-		System.out.println("*** Customers ***");
 		Customer c1 = new Customer("Jane", 45.25);
         Customer c2 = new Customer("Bob", 33.14);
 
@@ -48,5 +47,15 @@ public class Main
         c2.buy(s3.returnTotalCost(3));
         System.out.println(c2.getCashOnHand());
         System.out.println(s3.getQuantity());
+
+        // stretch
+
+        System.out.println(s1.toString());
+        System.out.println(s2.toString());
+        System.out.println(s3.toString());
+        System.out.println(s4.toString());
+        System.out.println(s5.toString());
+
+
     }
 }

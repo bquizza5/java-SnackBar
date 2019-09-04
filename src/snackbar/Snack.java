@@ -75,4 +75,14 @@ public class Snack
         quantity = quantity - howMany;
         return howMany * cost;
     }
+@Override
+public String toString()
+{
+    String rtnStr = "name: "+ name + "\n" +
+                    "Vending Machine name: " + vendId + "\n" +
+                    "Quantity: "+ quantity + "\n" +
+                    "Cost of total Quantity: "+ quantity * cost + "\n";
+    return rtnStr;
+}
+
 }
